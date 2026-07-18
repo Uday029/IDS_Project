@@ -1,6 +1,6 @@
 # Intrusion Detection System (IDS) Using Machine Learning
 
-![Live Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge)
+![Live Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge) ![Streamlit]([https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge](https://idsproject-irnkyzypgidcuhtu4bdvzf.streamlit.app))
 
 ### 🔴 [Click Here to View Live Project Demo](https://streamlit.io/gallery) *(Placeholder)*
 
