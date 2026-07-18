@@ -203,8 +203,9 @@ def main():
     if 'auth_view' not in st.session_state:
         st.session_state.auth_view = "login" # Options: login, signup
         
-    hero_image_path1 = "/Users/mac/.gemini/antigravity/brain/fd38f575-92a3-4997-bc49-c40fbcc0083e/cybersecurity_hero_1784367155583.png"
-    hero_image_path2 = "/Users/mac/.gemini/antigravity/brain/fd38f575-92a3-4997-bc49-c40fbcc0083e/cybersecurity_dashboard_1784367601826.png"
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    hero_image_path1 = os.path.join(base_dir, "assets", "hero.png")
+    hero_image_path2 = os.path.join(base_dir, "assets", "dashboard.png")
 
     # AUTHENTICATION PAGE (Facebook-style Split Layout)
     if not st.session_state.logged_in:

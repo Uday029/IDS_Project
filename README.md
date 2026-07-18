@@ -1,6 +1,15 @@
 # Intrusion Detection System (IDS) Using Machine Learning
 
+![Live Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge)
+
+### 🔴 [Click Here to View Live Project Demo](https://streamlit.io/gallery) *(Placeholder)*
+
 This is a complete end-to-end Data Science portfolio project that classifies network traffic as `Normal` or an `Attack` (DoS, Probe, R2L, U2R) using the NSL-KDD dataset.
+
+<p align="center">
+  <img src="assets/hero.png" width="45%" />
+  <img src="assets/dashboard.png" width="45%" />
+</p>
 
 ## Features
 - **Data Collection & Cleaning**: Automated scripts to download and clean the dataset.
@@ -9,6 +18,11 @@ This is a complete end-to-end Data Science portfolio project that classifies net
 - **Machine Learning Models**: Random Forest, Decision Tree, Logistic Regression, KNN, Naive Bayes trained and evaluated.
 - **Prediction App**: A Streamlit web application for real-time traffic classification.
 - **Power BI Integration**: Dataset exported to Excel, with instructions for creating a Power BI dashboard.
+
+<p align="center">
+  <img src="screenshots/1_Normal_vs_Attack.png" width="45%" />
+  <img src="screenshots/12_Correlation_Heatmap.png" width="45%" />
+</p>
 
 ## Folder Structure
 - `dataset/`: Contains download script and raw dataset files.
