@@ -419,12 +419,12 @@ def main():
                     st.error(f"🚨 THREAT: {prediction}")
 
     elif menu_selection == "📜 History / Ereignisse":
-        st.title("Prediction History")
-        st.write("All network packets you have scanned are securely logged here.")
+        st.title("Global Prediction History")
+        st.write("All network packets scanned by any user are securely logged here.")
         
         engine = get_db_engine()
         with engine.connect() as conn:
-            df = pd.read_sql(f"SELECT prediction_time, protocol_type, service, flag, src_bytes, predicted_class, model_used FROM PredictionResults WHERE username='{st.session_state.username}' ORDER BY prediction_time DESC", conn)
+            df = pd.read_sql("SELECT prediction_time, username, protocol_type, service, flag, src_bytes, predicted_class, model_used FROM PredictionResults ORDER BY prediction_time DESC", conn)
             
         if df.empty:
             st.info("You haven't made any predictions yet.")
