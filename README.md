@@ -2,7 +2,7 @@
 
 ![Live Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge) ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge) ![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge)
 
-### 🌐 [Click Here to View Live Streamlit Web App](https://share.streamlit.io/) *(Placeholder)*
+### 🌐 [Click Here to View Live Streamlit Web App]([https://share.streamlit.io/](https://idsproject-irnkyzypgidcuhtu4bdvzf.streamlit.app)) *(Placeholder)*
 ### 🔴 [Click Here to View Live Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNGNhZWNiZGMtNGY4Ny00ZDg4LTgxNjYtNDFhOTE1ZDE4NWFlIiwidCI6ImUxNGU3M2ViLTUyNTEtNDM4OC04ZDY3LThmOWYyZTJkNWE0NiIsImMiOjEwfQ%3D%3D&embedImagePlaceholder=true)
 
 This is a complete end-to-end Data Science portfolio project that classifies network traffic as `Normal` or an `Attack` (DoS, Probe, R2L, U2R) using the NSL-KDD dataset.
