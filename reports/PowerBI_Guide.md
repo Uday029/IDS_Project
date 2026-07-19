@@ -9,7 +9,7 @@ Since AI cannot natively generate `.pbix` binary files, follow these steps to bu
 4. Check the `Sheet1` box and click **Load**.
 
 ## Step 2: Create Measures (DAX)
-Go to the **Modeling** tab > **New Measure** and create the following:
+Go to the **Modeling** tab > **New Measure** acreate the following:
 
 1. **Total Records**: 
    `Total Records = COUNTROWS('Cleaned_NSL_KDD')`
