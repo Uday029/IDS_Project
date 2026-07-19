@@ -346,8 +346,9 @@ def main():
             
         st.markdown("---")
         st.markdown("### 📊 Power BI Dashboard Integration")
-        st.write("Link your own interactive Power BI dashboard here by pasting the 'Publish to Web' URL.")
-        pbi_url = st.text_input("🔗 Paste your Power BI src URL here:", value="")
+        st.write("View the interactive Power BI dashboard tracking network anomalies and attack classifications.")
+        default_pbi_url = "https://app.powerbi.com/view?r=eyJrIjoiNGNhZWNiZGMtNGY4Ny00ZDg4LTgxNjYtNDFhOTE1ZDE4NWFlIiwidCI6ImUxNGU3M2ViLTUyNTEtNDM4OC04ZDY3LThmOWYyZTJkNWE0NiIsImMiOjEwfQ%3D%3D&embedImagePlaceholder=true"
+        pbi_url = st.text_input("🔗 Power BI Dashboard Link:", value=default_pbi_url)
         
         if pbi_url:
             st.markdown(f'''
